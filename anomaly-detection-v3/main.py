@@ -19,7 +19,7 @@ async def process_data(app: KelvinApp, asset: str,df: pd.DataFrame, wrapper) -> 
     df.fillna(0, inplace=True)
     df = df[df['compressor_speed']!=0]
 
-    if df.shape[0]< 3:
+    if df.shape[0]< 4:
         print('2nd condition -> Returning')
         return None
     
