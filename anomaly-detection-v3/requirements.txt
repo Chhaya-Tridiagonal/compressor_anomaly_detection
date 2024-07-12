@@ -1,6 +1,0 @@
-dill==0.3.8
-joblib==1.3.2
-numpy==1.26.1
-pandas==2.1.2
-shap==0.45.0
-kelvin-python-sdk # JOÃO: Missing dependency
